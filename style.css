@@ -1,0 +1,298 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@800&family=Poppins:ital,wght@0,100;0,200;0,400;0,500;0,700;0,800;0,900;1,300&family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap');
+/* variables */
+:root {
+    --blue-dark: #07043B;
+    --white: #ffffff;
+    --blue-medium: #2F65F8;
+    --light-blue: #6C9BFF;
+    --green: #3DA08F;
+    --green-light: #71dfcc;
+    --normal: 400;
+    --bold: 700;
+}
+
+/* general styling */
+html {
+    font-style: normal;
+    font-size: 62.5%;
+}
+body {
+    font-family: 'Raleway', sans-serif;
+}
+.header-nav ul li, .intro h1, .intro p, .text-container-2 h2, .card p, .avatar div {
+    color: var(--blue-dark);
+}
+.flex-box h2, .flex-box p, #submit-2, .phone a, .email a, footer nav, .fa, .intro button  {
+    color: var(--white);
+}
+.intro h1, .text-container-2 h2, .text-container-2, .flex-box h2, .flex-box form, .flex-box p {
+    text-align: center;
+}
+.header-nav ul li, .link, .avatar div {
+    display: inline-block;
+}
+.header-nav ul li, .phone a, .email a, footer nav, .intro p, .link, #status, .flex-box p {
+    font-weight: var(--normal);
+}
+.intro h1, .intro button, .text-container-2 h2, #name, .flex-box h2, #submit-2 {
+    font-weight: var(--bold);
+}
+.fa:hover, .social-media div:hover, .social-media div:hover .fa, footer nav li:hover, .intro button:hover, .link:hover, .link:hover, #submit-2:hover {
+    cursor: pointer;
+    transition: all 0.5s ease;
+}
+.intro input, .intro button, .bg-curve-container img, #name, #status  {
+    display: block;
+}
+
+/* styling of header */
+header img {
+    height: 2.4rem;
+    margin: 2.4rem 0 0 2.4rem;
+}
+header .header-nav {
+    float: right;
+    margin-right: 2.4rem;
+}
+.header-nav ul li {
+    margin: 2.9rem 0 0 2.5rem;
+    font-size: 1.2rem;
+    line-height: 1.4rem;
+}
+/* styling of footer */
+footer {
+    background-color: var(--blue-dark);
+}
+footer #logo {
+    margin: 6.5rem 0 0 3.9rem;
+    height: 2.9rem;
+}
+.contact {
+    margin: 3.2rem 0 3.2rem 4.2rem;
+}
+.phone {
+    margin-bottom: 2.3rem;
+}
+.phone img, .email img {
+    vertical-align: middle;
+}
+.phone a, .email a {
+    font-size: 16px;
+    line-height: 24px;
+    margin-left: 2rem;
+    vertical-align: middle;
+}
+footer nav {
+    margin: 0 0 1.6rem 3.9rem;
+    font-size: 1.6rem;
+    line-height: 2.2rem;
+}
+footer nav li {
+    padding-bottom: 1.6rem;
+}
+.social-media, .social-media div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+.social-media {
+    padding: 1.6rem 0  4.2rem 0;
+}
+.social-media div {
+    height: 2.7rem;
+    width: 2.7rem;
+    margin-right: 1.082rem;
+    border: 0.0795909rem solid var(--white);
+    border-radius: 50%;
+}
+.fa {
+    font-size: 1.6rem;
+}
+.fa:hover, .social-media div:hover, .social-media div:hover .fa {
+    color: var(--light-blue);
+    border-color: var(--light-blue);
+}
+footer nav li:hover {
+    color: var(--light-blue);
+}
+/* stylingof introduction */
+.intro {
+    width: 100%;
+    margin: 10.3rem auto 9rem auto;
+    max-width: 42.5rem;
+}
+.intro .img-container {
+    height: 22.5rem;
+    margin: 0 3.5rem;
+    background-image: url(images/illustration-1.svg);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.intro h1 {
+    margin: 4rem auto 2.4rem auto;
+    font-size: 2.4rem;
+    line-height: 3.6rem;
+    max-width: 32rem;
+}
+.intro p {
+    font-size: 1.4rem;
+    line-height: 2.1rem;
+    margin: 0 3.5rem 1.6rem 3.5rem;
+}
+.intro input {
+    border: 0.0625rem solid var(--blue-dark);
+    box-shadow: 0.2rem 0.3rem 0.6rem rgba(0, 0, 0, 0.15925);
+    border-radius: 0.325rem;
+    max-width: 30.4rem;
+    width: 100%;
+    height: 4rem;
+    margin: 3.2rem auto 1.6rem auto;
+}
+.intro button {
+    max-width: 30.4rem;
+    width: 100%;
+    height: 4rem;
+    margin: 0 auto;
+    background: var(--blue-medium);
+    box-shadow: 2px 3px 6px rgba(0, 0, 0, 0.15925);
+    border-radius: 3.125px;
+    font-size: 1.4rem;
+    line-height: 1.6rem;
+}
+.intro button:hover {
+    background-color:  var(--light-blue);
+}
+/* styling of main section */
+main {
+    width: 100%;
+    margin: 0 auto;
+    max-width: 42.5rem;
+}
+.bg-curve-container img {
+    margin: 0 auto;
+    width: 100%;
+}
+main .content {
+    background-color: #F8F8FE;
+    padding-top: 7rem;
+    padding-bottom: 8.19rem;
+}
+main .img-container {
+    height: 24.1rem;
+    margin: 0 3.5rem 8.7rem 3.5rem;
+    background-image: url(images/illustration-2.svg);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+#desktop {
+    display: none;
+}
+.text-container-2 h2 {
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+    margin-bottom: 2.4rem;
+}
+.text-container-2 > p {
+    font-size: 1.4rem;
+    line-height: 2.1rem;
+    color: #615F7E;
+    margin: 0 3.5rem 1.6rem 3.5rem;
+}
+.link {
+    margin: 2rem 0 4rem 0;
+    padding-bottom: 0.6rem;
+    font-size: 1.2rem;
+    line-height: 1.6rem;
+    color: var(--green);
+    border-bottom: 0.1rem solid  var(--green);
+}
+.link:hover, .link:hover {
+    color: var(--green-light);
+    border-color: var(--green-light);
+}
+.link img, .link span {
+    vertical-align: middle;
+}
+.card {
+   margin: 0 auto;
+   max-width: 28rem;
+   height: 16.9rem;
+   box-shadow: 0px 0px 8px 4px rgba(56, 56, 56, 0.0458843);
+   border-radius: 0.393258rem;  
+   position: relative
+}
+.card > img {
+    position: absolute;
+    top: 2.2rem;
+    left: 2.6rem;
+}
+.card p {
+    padding: 3.85rem 1.275rem 0 2.6rem;
+    text-align: left;
+    font-size: 10px;
+    line-height: 18px;
+    letter-spacing: 0.384615px;
+}
+.avatar {
+    margin: 1.2rem 0 0 2.6rem;
+    text-align: left;
+
+}
+.avatar img {
+    width: 2.4rem;
+    height: 2.4rem;
+    border-radius: 50%;
+    vertical-align: middle;
+}
+.avatar div {
+    vertical-align: middle;
+    margin-left: 0.746rem;
+    font-size: 9px;
+    line-height: 12px;
+    letter-spacing: 0.45px;
+}
+#name  {
+    margin-bottom: 0.18rem;
+}
+/* stylinf og flex-box */
+.flex-box {
+    background-color: #575988;
+}
+.flex-box h2 {
+    padding: 5.4rem 0 1.6rem 0;
+    font-size: 1.8rem;
+    line-height: 2.4rem;
+}
+.flex-box p {
+    margin: 0 auto;
+    padding: 0 4.8rem 0 4.8rem;
+    max-width: 42.5rem;
+    font-size: 1.4rem;
+    line-height: 2.1rem;
+}
+.flex-box form {
+    margin: 0 auto;
+    max-width: 48rem;
+}
+.flex-box form input, #submit-2 {
+    max-width: 24rem;
+    width: 100%;
+    height: 3.2rem;
+}
+.flex-box form input {
+    margin: 5.4rem 0 0.8rem 0;
+}
+#submit-2 {
+    margin-bottom: 7.1rem;
+    font-size: 1rem;
+    line-height: 1.2rem;
+    background: var(--blue-medium);
+    box-shadow: 1px 1px 3px rgba(7, 4, 59, 0.157043);
+    border-radius: 0.147059rem;
+}
+#submit-2:hover {
+    background-color:  var(--light-blue);
+}
+
